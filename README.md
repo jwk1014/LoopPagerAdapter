@@ -54,7 +54,7 @@ public class DemoPagerAdapter extends LoopPagerAdapter {
 ViewPager에 Adapter를 적용 시 다음과 같은 방법으로 적용합니다.
 ```java
 ViewPager vp = (ViewPager)findViewById(R.id.viewpager1);
-DemoPagerAdapter adapter = new DemoPagerAdapter(vp,arr);
+DemoPagerAdapter adapter = new DemoPagerAdapter(vp,arr); // arr already fill content
 adapter.ready(); 
 //ready를 호춣해야 setAdaapter 및 처음 화면과 addOnPageChangeListener를 통한 올바른 무한 루프 화면이 구성됩니다.
 ```

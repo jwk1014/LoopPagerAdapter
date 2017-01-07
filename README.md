@@ -9,7 +9,7 @@ N개의 화면의 앞과 뒤를 연결하여 <b>계속 반복되는 ViewPager</b
 Import
 ------
 위 프로젝트를 다운받은 후<br/>
-<b>looppageradapter/build/outputs/aar/looppageradapter-release.aar</b> 파일을<br/>
+<b>looppageradapter</b> 폴더를<br/>
 Android Studio의 메뉴 File > new > Import Module... 하세요.<br/>
 
 사용법 

@@ -11,13 +11,13 @@ Import
 위 프로젝트를 다운받은 후<br/><br/> 
 방법1<br/>
 <pre><code>
-    위에 보이는 <b>looppageradapter</b> 폴더만 따로<br/>
-    Android Studio의 메뉴 File > new > Import Project... 하거나<br/><br/>
+위에 보이는 <b>looppageradapter</b> 폴더만 따로<br/>
+Android Studio의 메뉴 File > new > Import Project... 하거나<br/><br/>
 </code></pre>
 방법2<br/>
 <pre><code>
-    <b>looppageradapter/build/outputs/aar/looppageradapter-release.aar</b> 파일을<br/>
-    Android Studio의 메뉴 File > new > Import Module... 하세요.
+<b>looppageradapter/build/outputs/aar/looppageradapter-release.aar</b> 파일을<br/>
+Android Studio의 메뉴 File > new > Import Module... 하세요.
 </code></pre>
 
 사용법 

@@ -4,9 +4,14 @@ LoopPagerAdapter
 N개의 화면의 앞과 뒤를 연결하여 <b>계속 반복되는 ViewPager</b>를 만들기 위해 만들어진 추상클래스 라이브러리입니다.
 
 <b>app</b> 폴더의 프로젝트는 <b>LoopPagerAdapter</b>를 사용한 ViewPager 예제입니다.
+<b>looppageradapter</b> 폴더의 프로젝트는 <b>LoopPagerAdapter</b>를 사용한 ViewPager 예제입니다.
 
-다운받은 후<br/>
-위에 보이는 <b>looppageradapter</b> 폴더만 따로<br/>Android Studio의 메뉴 File > new > Import Project... 하거나<br/><br/>
+Import
+------
+위 프로젝트를 다운받은 후<br/><br/> 
+방법1<br/>
+위에 보이는 <b>looppageradapter</b> 폴더만 따로<br/>Android Studio의 메뉴 File > new > Import Project... 하거나<br/><br/> 
+방법2<br/>
 <b>looppageradapter/build/outputs/aar/looppageradapter-release.aar</b> 파일을<br/>Android Studio의 메뉴 File > new > Import Module... 하세요.
 
 사용법 

@@ -1,7 +1,7 @@
 LoopPagerAdapter
 ========
 
-n개의 화면의 앞과 뒤를 연결하여 계속 반복되는 ViewPager를 만들기 위해 만들어진 추상클래스 라이브러리입니다.
+N개의 화면의 앞과 뒤를 연결하여 계속 반복되는 ViewPager를 만들기 위해 만들어진 추상클래스 라이브러리입니다.
 
 <b>app</b> 폴더의 프로젝트는 LoopPagerAdapter를 사용한 ViewPager 예제입니다.
 

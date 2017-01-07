@@ -11,7 +11,7 @@ Import
 위 프로젝트를 다운받은 후<br/>
 Android Studio의 메뉴 File > new > Import Module... 를 선택<br/>
 <b>looppageradapter</b> 폴더를 선택하여 추가하세요.<br/>
-app 수준의 build.gradle 파일의 dependencies에 아래와 같은 구문을 추가하세요.<br/>
+<b>app 수준의 build.gradle</b> 파일의 dependencies에 아래와 같은 구문을 추가하세요.<br/>
 <pre><code>compile project(':looppageradapter')</code></pre><br/>
 사용법 
 ------

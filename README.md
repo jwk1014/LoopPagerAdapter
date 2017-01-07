@@ -23,13 +23,13 @@ public class DemoPagerAdapter extends LoopPagerAdapter {
     }
 
     @Override
-    public Object getItem(int position) {
-        return arr.get(position);
+    public Object getItem(int position) { //position번째 화면을 그리는데 필요한 아이템 
+        return arr.get(position);
     }
 
     @Override
-    public int getItemCount() {
-        return arr.size();
+    public int getItemCount() { //화면 개수 
+        return arr.size();
     }
 
     @Override
@@ -38,7 +38,8 @@ public class DemoPagerAdapter extends LoopPagerAdapter {
         View v = LayoutInflater.from(container.getContext()).inflate(R.layout.page_content,container,false);
 
         ((TextView)v.findViewById(R.id.page_content_textview1)).setText( (String)getLoopItem(position) );
-
+        //getLoopItem으로 아이템을 얻어야 화면에 맞는 올바른 아이템을 얻을 수 있습니다.
+    
         container.addView(v);
 
         return v;
@@ -50,5 +51,5 @@ ViewPager에 적용시 다음과 같이 적용합니다.
 ```java
 ViewPager vp = (ViewPager)findViewById(R.id.viewpager1);
 DemoPagerAdapter adapter = new DemoPagerAdapter(vp,arr);
-adapter.ready();
+adapter.ready(); //ready를 호춣해야 setAdaapter 및 처음 화면과 addOnPageChangeListener를 통한 올바른 무한 루프 화면이 구성됩니다.
 ```

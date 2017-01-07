@@ -51,5 +51,6 @@ ViewPager에 적용시 다음과 같이 적용합니다.
 ```java
 ViewPager vp = (ViewPager)findViewById(R.id.viewpager1);
 DemoPagerAdapter adapter = new DemoPagerAdapter(vp,arr);
-adapter.ready(); //ready를 호춣해야 setAdaapter 및 처음 화면과 addOnPageChangeListener를 통한 올바른 무한 루프 화면이 구성됩니다.
+adapter.ready(); 
+//ready를 호춣해야 setAdaapter 및 처음 화면과 addOnPageChangeListener를 통한 올바른 무한 루프 화면이 구성됩니다.
 ```
